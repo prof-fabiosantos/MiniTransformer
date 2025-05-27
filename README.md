@@ -83,7 +83,7 @@ transformer_chatbot_project/
 
 ---
 
-## 🏁 Como usar
+## 🏁 Como Instalar
 
 ```bash
 pip install torch streamlit numpy
@@ -107,6 +107,28 @@ streamlit run transformer_app.py
 * Hidden MLP: 256
 * Tokens máximos por prompt: 100
 * Parâmetros totais: \~806.000
+
+---
+
+## 💬 Playground Web App
+
+O projeto inclui uma interface interativa desenvolvida com Streamlit chamada **Playground**, que permite explorar e testar o modelo Transformer Core diretamente no navegador. 
+<p align="center">
+  <img src="./playground.png" alt="Logo Transformer Core" width="300"/>
+</p>
+A interface é intuitiva e oferece os seguintes recursos:
+
+* Entrada de texto para perguntas abertas
+* Sliders interativos para configurar os parâmetros da geração:
+
+  * Número de palavras a gerar
+  * Temperatura (controla a aleatoriedade)
+  * Top-k (seleção dos k tokens mais prováveis)
+  * Top-p (nucleus sampling, controle de diversidade)
+* Visualização clara da resposta gerada
+* Exibição lateral do número total de parâmetros do modelo
+
+Essa interface é ideal para testes rápidos e demonstrações, permitindo que estudantes e entusiastas compreendam na prática como os ajustes de parâmetros afetam a saída do modelo.
 
 ---
 
