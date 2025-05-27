@@ -1,3 +1,5 @@
+# Este software é licenciado apenas para fins educacionais e não pode ser utilizado para fins comerciais.
+
 import torch  # Biblioteca principal para tensores e deep learning
 import torch.nn as nn  # Submódulo com camadas
 import torch.nn.functional as F  # Funções como softmax, gelu, etc.
