@@ -83,7 +83,7 @@ transformer_chatbot_project/
 
 ---
 
-## 🏁 Como Instalar
+## 🏁 Como Instalar e Usar
 
 ```bash
 pip install torch streamlit numpy pillow
