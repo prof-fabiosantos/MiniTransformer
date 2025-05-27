@@ -1,3 +1,5 @@
+# Este software é licenciado apenas para fins educacionais e não pode ser utilizado para fins comerciais.
+
 # transformer_chatbot_treino.py (com arquitetura ampliada)
 import torch  # Biblioteca principal para tensores e deep learning
 import torch.nn as nn  # Submódulo com definições de camadas
