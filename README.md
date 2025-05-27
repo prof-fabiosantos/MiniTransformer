@@ -38,7 +38,7 @@ Todo Transformer de geração de texto é composto por três componentes princip
 
 O `Transformer Core` é composto pelos seguintes blocos principais:
 
-* **Embedding de palavras e posições**
+* **`Embedding`**: embedding de palavras e posições
 * **`TransformerBlock`**: bloco completo com LayerNorm, residual e atenção + MLP
 * **`MultiHeadSelfAttention`**: atenção com projeção conjunta QKV, máscara causal e concatenação de cabeças
 * **`TransformerMLP`**: MLP com GELU e projeções lineares
