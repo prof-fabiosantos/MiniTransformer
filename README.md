@@ -114,7 +114,7 @@ streamlit run transformer_app.py
 
 O projeto inclui uma interface interativa desenvolvida com Streamlit chamada **Playground**, que permite explorar e testar o modelo Transformer Core diretamente no navegador. 
 <p align="center">
-  <img src="./playground.png" alt="Logo Transformer Core" width="500"/>
+  <img src="./playground.png" alt="Logo Transformer Core" width="600"/>
 </p>
 A interface é intuitiva e oferece os seguintes recursos:
 
