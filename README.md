@@ -77,6 +77,7 @@ transformer_chatbot_project/
 ├── modelo_transformer.pt  # Modelo treinado
 ├── vocab_transformer.json # Vocabulário serializado
 ├── TransformerChatbotTreino.ipynb  # Versão notebook interativo
+├── requirements.txt # Dependências 
 └── transformer_app.py # Web App Playground interativo
 
 ```
