@@ -1,3 +1,5 @@
+# Este software é licenciado apenas para fins educacionais e não pode ser utilizado para fins comerciais.
+
 # transformer_chatbot_app.py
 import streamlit as st
 import torch
