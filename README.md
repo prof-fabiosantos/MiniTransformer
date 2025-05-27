@@ -72,11 +72,13 @@ model = SimpleTransformer(
 ```bash
 transformer_chatbot_project/
 ├── model.py                # Arquitetura do Transformer Core
-├── train_transformer_v3.py  # Script de treino e geração
+├── train_transformer.py  # Script de treino e geração
 ├── textDataset.txt        # Dados de treinamento com pares QA
 ├── modelo_transformer.pt  # Modelo treinado
 ├── vocab_transformer.json # Vocabulário serializado
-└── TransformerChatbotTreino.ipynb  # Versão notebook interativo
+├── TransformerChatbotTreino.ipynb  # Versão notebook interativo
+└── transformer_app # Web app interativo
+
 ```
 
 ---
@@ -125,6 +127,6 @@ output: 4 <eos>
 
 ---
 
-Desenvolvido com ❤️ para aprendizado, prototipagem e experimentação.
+Desenvolvido para aprendizado, prototipagem e experimentação.
 
 > "Construa seu próprio modelo, compreenda cada atenção."
