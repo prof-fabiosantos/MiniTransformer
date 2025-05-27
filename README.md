@@ -144,7 +144,7 @@ output: 4 <eos>
 ## 📚 Referências
 
 * [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
-* [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+* [The Annotated Transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
 * Baseado em práticas de modelos como GPT-2
 
 ---
