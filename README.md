@@ -86,7 +86,7 @@ transformer_chatbot_project/
 ## 🏁 Como Instalar
 
 ```bash
-pip install torch streamlit numpy
+pip install torch streamlit numpy pillow
 ou
 pip install -r requirements.txt
 
