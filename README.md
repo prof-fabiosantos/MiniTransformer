@@ -83,18 +83,18 @@ transformer_chatbot_project/
 
 ---
 
-## 🏁 Como Instalar e Usar
+## 🏁 Como Instalar, Usar e Treinar um Modelo
 
 ```bash
 pip install torch streamlit numpy pillow
 ou
 pip install -r requirements.txt
 
-# Treinar modelo
-python train_transformer.py
-
 # Rodar app Streamlit (caso implementado)
 streamlit run transformer_app.py
+
+# Treinar modelo
+python train_transformer.py
 ```
 
 ---
