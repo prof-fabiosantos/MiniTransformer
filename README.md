@@ -71,6 +71,7 @@ model = SimpleTransformer(
 
 ```bash
 transformer_core_project/
+├── transformer_app_playground   # App Playground
 ├── model.py                # Arquitetura do Transformer Core
 ├── train_transformer.py  # Script de treino e geração
 ├── textDataset.txt        # Dados de treinamento com pares QA
@@ -87,12 +88,16 @@ transformer_core_project/
 ## 🏁 Como Instalar, Usar e Treinar um Modelo
 
 ```bash
+python -m venv myenv
+.\myenv\Scripts\activate
+
 pip install torch streamlit numpy pillow
 ou
 pip install -r requirements.txt
 
-# Rodar app Streamlit
-streamlit run transformer_app.py
+# Rodar app Playground Streamlit
+cd transformer_app_playground
+streamlit run main.py
 
 # Treinar modelo
 python train_transformer.py
