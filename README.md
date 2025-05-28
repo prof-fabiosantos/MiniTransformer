@@ -91,7 +91,7 @@ pip install torch streamlit numpy pillow
 ou
 pip install -r requirements.txt
 
-# Rodar app Streamlit (caso implementado)
+# Rodar app Streamlit
 streamlit run transformer_app.py
 
 # Treinar modelo
