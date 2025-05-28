@@ -79,7 +79,7 @@ def gerar_resposta():
 
 def visualizar_pesos():
     if "atencao" in st.session_state:
-        st.write("### Visualização da Cabelas de Atenção")
+        st.write("### Visualização da Cabeças de Atenção")
         tokens = st.session_state["tokens"]
         attn_all = st.session_state["atencao"][-1][-1][0]
         n_heads = attn_all.shape[0]
