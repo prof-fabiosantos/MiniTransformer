@@ -120,7 +120,9 @@ python train_transformer.py
 
 ## 💬 Playground Web App
 
-O projeto inclui uma interface interativa desenvolvida com Streamlit chamada **Playground**, que permite explorar e testar o modelo Transformer Core diretamente no navegador. 
+O projeto inclui uma interface interativa desenvolvida com Streamlit chamada **Playground**, que permite explorar e testar o modelo treinado pelo Transformer Core diretamente no navegador.
+O modelo treinado é salvo no modelo_transformer.pt. Para usar o modelo treinado basta copiá-lo para a pasta transformer_app_playground.
+
 <p align="center">
   <img src="./playground.png" alt="Playground" width="600"/>
 </p>
