@@ -162,6 +162,16 @@ output: 4 <eos>
 
 ---
 
-Desenvolvido para aprendizado, prototipagem e experimentação.
+## 📘 Créditos
 
-> "Construa seu próprio modelo, compreenda cada atenção."
+📘 **Transformer Core** foi desenvolvido pelo Prof. [Fabio Santos](https://www.linkedin.com/in/fabio-santos-3706906/), com foco em ensino, prototipagem e experimentação de modelos de linguagem baseados na arquitetura Transformer.
+
+---
+
+## ⚠️ Licença e Uso
+
+Este projeto é distribuído exclusivamente para **fins educacionais e não comerciais**.  
+O uso é permitido para estudo, pesquisa e prototipagem, com a devida atribuição de crédito ao autor.  
+Qualquer uso comercial ou redistribuição requer permissão prévia por escrito.
+
+Licença adaptada da [MIT License](https://opensource.org/licenses/MIT).
