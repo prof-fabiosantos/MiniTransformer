@@ -70,13 +70,13 @@ model = SimpleTransformer(
 ## 📁 Estrutura do projeto
 
 ```bash
-transformer_chatbot_project/
+transformer_core_project/
 ├── model.py                # Arquitetura do Transformer Core
 ├── train_transformer.py  # Script de treino e geração
 ├── textDataset.txt        # Dados de treinamento com pares QA
 ├── modelo_transformer.pt  # Modelo treinado
 ├── vocab_transformer.json # Vocabulário serializado
-├── TransformerChatbotTreino.ipynb  # Versão notebook interativo
+├── TransformerCoreTreino.ipynb  # Versão notebook interativo
 ├── requirements.txt # Dependências 
 └── transformer_app.py # Web App Playground interativo
 
