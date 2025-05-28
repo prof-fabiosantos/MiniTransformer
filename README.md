@@ -98,8 +98,7 @@ ou
 pip install -r requirements.txt
 
 # Rodar app Playground Streamlit
-cd transformer_app_playground
-streamlit run main.py
+streamlit run transformer_app.py
 
 # Treinar modelo
 python train_transformer.py
