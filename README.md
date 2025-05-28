@@ -88,9 +88,11 @@ transformer_core_project/
 ## 🏁 Como Instalar, Usar e Treinar um Modelo
 
 ```bash
+# Criar e ativar o ambiente virtual
 python -m venv myenv
 .\myenv\Scripts\activate
 
+# Instalar as Depedências
 pip install torch streamlit numpy pillow
 ou
 pip install -r requirements.txt
