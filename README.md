@@ -120,7 +120,7 @@ O arquivo Transformer Train é responsável por **treinar um modelo Transformer 
   <img src="./train.png" alt="Playground" width="600"/>
 </p>
 
-### Funcionalidades:
+### 🎛️ Funcionalidades:
 
 - **Pré-processamento do dataset** (`textDataset.txt`).
 - **Definição do modelo Transformer** com número ajustável de camadas, cabeças, embeddings.
