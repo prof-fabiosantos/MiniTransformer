@@ -114,7 +114,7 @@ python train_transformer.py
 
 ## 📌 Transformer Train
 
-O arquivo Transformer Train é responsável por **treinar um modelo Transformer simples** para tarefas de geração de texto com base em pares de pergunta e resposta. Ele segue uma arquitetura compacta e educacional, ideal para fins de aprendizado, prototipagem e experimentação.
+O app Transformer Train é responsável por **treinar um modelo Transformer simples** para tarefas de geração de texto com base em pares de pergunta e resposta. Ele segue uma arquitetura compacta e educacional, ideal para fins de aprendizado, prototipagem e experimentação.
 
 <p align="center">
   <img src="./train.png" alt="Playground" width="600"/>
