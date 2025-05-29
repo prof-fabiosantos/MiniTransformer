@@ -5,9 +5,13 @@ import torch.nn.functional as F
 import matplotlib.pyplot as plt
 from torch.utils.data import DataLoader
 import json
-from train_transformer_main import QADataset, SimpleTransformer, top_k_top_p_filtering
+from train_transformer_main import QADataset, SimpleTransformer
 
-st.title("🧠 Treinamento Transformer")
+col1, col2 = st.columns([1, 5])
+with col1:
+    st.image("assets/logo_transformercore.png", width=150)
+with col2:
+    st.title("Transformer Train")
 
 st.sidebar.header("🔧 Hiperparâmetros")
 seq_len = st.sidebar.slider("Tamanho da sequência", 5, 100, 10)
