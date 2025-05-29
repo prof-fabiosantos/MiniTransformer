@@ -93,7 +93,7 @@ python -m venv myenv
 .\myenv\Scripts\activate
 
 # Instalar as Depedências
-pip install torch streamlit numpy pillow
+pip install torch streamlit numpy pillow matplotlib
 ou
 pip install -r requirements.txt
 
