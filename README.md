@@ -72,8 +72,9 @@ model = SimpleTransformer(
 ```bash
 transformer_core_project/
 ├── transformer_app_playground   # App Playground
+├── transformer_train   # App Transforme Train 
 ├── model.py                # Arquitetura do Transformer Core
-├── train_transformer.py  # Script de treino e geração
+├── train_transformer.py  # Script de treino e geração via terminal
 ├── textDataset.txt        # Dados de treinamento com pares QA
 ├── modelo_transformer.pt  # Modelo treinado
 ├── vocab_transformer.json # Vocabulário serializado
@@ -97,11 +98,15 @@ pip install torch streamlit numpy pillow matplotlib
 ou
 pip install -r requirements.txt
 
-# Rodar app Playground Streamlit
+# Rodar app Playground 
 cd transformer_app_playground
 streamlit run main.py
 
-# Treinar modelo
+# Rodar app Transformer Train
+cd transformer_train
+streamlit run train_transformer_app.py
+ou
+# Treinar modelo via terminal
 python train_transformer.py
 ```
 
