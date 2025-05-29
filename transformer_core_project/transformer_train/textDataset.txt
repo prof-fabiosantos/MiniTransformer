@@ -1,0 +1,8 @@
+pergunta: qual a capital do brasil? resposta: brasília.
+pergunta: quanto é 2 mais 2? resposta: 4.
+pergunta: quem descobriu o brasil? resposta: pedro álvares cabral.
+pergunta: qual a cor do céu? resposta: azul.
+pergunta: quais são as cores do Flamengo? resposta: vermelho e preto.
+pergunta: qual é a raiz quadrada de 16? resposta: 4.
+pergunta: quantos anos tem o chip? resposta: 5.
+pergunta: quantos lados tem um triangulo? resposta: 3.
