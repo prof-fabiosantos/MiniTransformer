@@ -114,11 +114,20 @@ python train_transformer.py
 
 ## 📌 Transformer Train
 
-O arquivo Transformer Train é um frontend interativo que permite ao usuário configurar e treinar um modelo Transformer de forma visual e simplificada, sem a necessidade de editar o código manualmente.
+O arquivo Transformer Train é responsável por **treinar um modelo Transformer simples** para tarefas de geração de texto com base em pares de pergunta e resposta. Ele segue uma arquitetura compacta e educacional, ideal para fins de aprendizado, prototipagem e experimentação.
 
 <p align="center">
   <img src="./train.png" alt="Playground" width="600"/>
 </p>
+
+### Funcionalidades:
+
+- **Pré-processamento do dataset** (`textDataset.txt`).
+- **Definição do modelo Transformer** com número ajustável de camadas, cabeças, embeddings.
+- **Treinamento supervisionado** com otimização via `Adam` e `cross_entropy`.
+- **Salvamento dos pesos do modelo** e vocabulário treinado.
+- **Geração de texto** a partir de um prompt, usando top-k e top-p sampling.
+
 ---
 
 ## 💬 Playground Web App
