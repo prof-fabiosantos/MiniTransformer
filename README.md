@@ -127,6 +127,7 @@ O arquivo Transformer Train é responsável por **treinar um modelo Transformer 
 - **Treinamento supervisionado** com otimização via `Adam` e `cross_entropy`.
 - **Salvamento dos pesos do modelo** e vocabulário treinado.
 - **Geração de texto** a partir de um prompt, usando top-k e top-p sampling.
+- **Geração de gráfico**: um gráfico com a curva de perda (loss) para facilitar a análise do desempenho do modelo.
 
 ---
 
