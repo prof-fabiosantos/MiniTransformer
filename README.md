@@ -107,15 +107,13 @@ python train_transformer.py
 
 ---
 
-## 📌 Parâmetros típicos
+## 📌 Transformer Train
 
-* Camadas: 4
-* Cabeças de atenção: 8
-* Embedding: 128
-* Hidden MLP: 256
-* Tokens máximos por prompt: 100
-* Parâmetros totais: \~806.000
+O arquivo Transformer Train é um frontend interativo que permite ao usuário configurar e treinar um modelo Transformer de forma visual e simplificada, sem a necessidade de editar o código manualmente.
 
+<p align="center">
+  <img src="./train.png" alt="Playground" width="600"/>
+</p>
 ---
 
 ## 💬 Playground Web App
