@@ -1,6 +1,6 @@
 # 🧠 Transformer Core
 
-**Transformer Core** é uma implementação educacional e compacta da arquitetura Transformer, projetada para tarefas de NLP como geração de texto e perguntas/respostas. Leve, interpretável e pronta para personalização, ela é ideal para estudantes, entusiastas e experimentos locais.
+**Transformer Core** é uma implementação educacional e compacta do Encoder da arquitetura Transformer, projetada para tarefas de NLP como geração de texto e perguntas/respostas. Leve, interpretável e pronta para personalização, ela é ideal para estudantes, entusiastas e experimentos locais.
 
 <p align="center">
   <img src="./logo_minitransformer.png" alt="Logo Transformer Core" width="300"/>
@@ -20,7 +20,7 @@ A família GPT-2 é um exemplo proeminente de Transformers para geração de tex
 
 ## 🧬 Arquitetura Transformer
 
-Todo Transformer de geração de texto é composto por três componentes principais:
+Todo Encoder da arquitetura Transformer é composto por três componentes principais:
 
 * **Embedding**: A entrada textual é dividida em unidades menores chamadas *tokens*, que podem ser palavras ou subpalavras. Esses tokens são convertidos em vetores numéricos chamados *embeddings*, que capturam o significado semântico das palavras.
 
