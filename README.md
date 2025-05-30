@@ -115,9 +115,12 @@ python train_transformer.py
 ## 📌 Transformer Train
 
 O app Transformer Train é responsável por **treinar um modelo Transformer simples** para tarefas de geração de texto com base em pares de pergunta e resposta. Ele segue uma arquitetura compacta e educacional, ideal para fins de aprendizado, prototipagem e experimentação.
+<p align="center">
+  <img src="./atencao.png" alt="Transformer Train" width="600"/>
+</p>
 
 <p align="center">
-  <img src="./train.png" alt="Playground" width="600"/>
+  <img src="./train.png" alt="Transformer Train" width="600"/>
 </p>
 
 ### 🎛️ Funcionalidades:
@@ -128,6 +131,10 @@ O app Transformer Train é responsável por **treinar um modelo Transformer simp
 - **Salvamento dos pesos do modelo** e vocabulário treinado.
 - **Geração de texto** a partir de um prompt, usando top-k e top-p sampling.
 - **Geração de gráfico**: um gráfico com a curva de perda (loss) para facilitar a análise do desempenho do modelo.
+- **Exibe o batch atual**: mostra os tokens numéricos e as palavras reais.
+- **Gera um heatmap da atenção**: gera um heatmap da atenção da última camada e primeira cabeça de atenção.
+- **Exibe a loss**: Exibe a loss média a cada época.
+- **Atualiza o progresso batch**: Atualiza o progresso batch a batch em tempo real.
 
 ---
 
