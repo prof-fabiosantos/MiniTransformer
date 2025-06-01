@@ -11,5 +11,5 @@ if st.session_state.get("gerar", False):
     gerar_resposta()
 
 if st.session_state.get("resposta_gerada", False):
-    if st.button("Visualizar pesos do modelo"):
+    if st.button("Visualizar os detalhes"):
         visualizar_pesos()
