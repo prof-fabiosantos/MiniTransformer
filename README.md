@@ -72,15 +72,15 @@ model = SimpleTransformer(
 ```bash
 transformer_core_project/
 ├── transformer_app_playground   # App Playground
-├── transformer_train   # App Transforme Train 
-├── model.py                # Arquitetura do Transformer Core
-├── train_transformer.py  # Script de treino e geração via terminal
-├── textDataset.txt        # Dados de treinamento com pares QA
-├── modelo_transformer.pt  # Modelo treinado
-├── vocab_transformer.json # Vocabulário serializado
+├── transformer_train            # App Transforme Train 
+├── model.py                     # Arquitetura do Transformer Core
+├── train_transformer.py         # Script de treino e geração via terminal
+├── textDataset.txt              # Dados de treinamento com pares QA
+├── modelo_transformer.pt        # Modelo treinado
+├── vocab_transformer.json       # Vocabulário serializado
 ├── TransformerCoreTreino.ipynb  # Versão notebook interativo
-├── requirements.txt # Dependências 
-└── transformer_app.py # Web App Playground interativo
+└── requirements.txt             # Dependências 
+
 
 ```
 
