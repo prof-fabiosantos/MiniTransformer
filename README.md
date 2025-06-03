@@ -31,6 +31,9 @@ Todo Decoder da arquitetura Transformer é composto por três componentes princi
 
 * **Probabilidades de Saída**: As camadas finais lineares e softmax transformam os *embeddings* processados em probabilidades, permitindo que o modelo preveja o próximo token na sequência.
 
+<p align="center">
+  <img src="./fluxo.png" alt="Logo Transformer Core" width="300"/>
+</p>
 
 ---
 
