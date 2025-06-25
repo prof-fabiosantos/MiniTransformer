@@ -1,3 +1,4 @@
+#© 2025 Prof. Dr. Fabio Santos. Uso permitido apenas para fins educacionais e não comerciais.
 # transformer_chatbot_app.py
 import streamlit as st
 import torch
