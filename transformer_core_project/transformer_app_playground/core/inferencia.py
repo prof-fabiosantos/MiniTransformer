@@ -1,4 +1,4 @@
-
+#© 2025 Prof. Dr. Fabio Santos. Uso permitido apenas para fins educacionais e não comerciais.
 import torch
 import torch.nn.functional as F
 import json
