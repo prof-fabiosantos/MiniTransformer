@@ -1,3 +1,4 @@
+#© 2025 Prof. Dr. Fabio Santos. Uso permitido apenas para fins educacionais e não comerciais.
 import streamlit as st
 from ui.sidebar import mostrar_sidebar
 from ui.layout import layout_principal
