@@ -1,3 +1,4 @@
+#© 2025 Prof. Dr. Fabio Santos. Uso permitido apenas para fins educacionais e não comerciais.
 # transformer_chatbot_treino.py (com arquitetura ampliada)
 import torch  # Biblioteca principal para tensores e deep learning
 import torch.nn as nn  # Submódulo com definições de camadas
