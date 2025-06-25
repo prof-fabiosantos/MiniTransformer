@@ -187,7 +187,7 @@ output: 4 <eos>
 
 ## 📘 Créditos
 
-📘 **Transformer Core** foi desenvolvido pelo Prof. Dr. Fabio Santos [](https://www.linkedin.com/in/fabio-santos-3706906/) da Escola Superior de Tecnologia (EST) da Universidade do Estado do Amazonas (UEA), com foco em ensino, prototipagem e experimentação de modelos de linguagem baseados na arquitetura Transformer.
+📘 **Transformer Core** foi desenvolvido pelo Prof. Dr. Fabio Santos [](https://www.linkedin.com/in/fabio-santos-3706906/) docente da Escola Superior de Tecnologia (EST), pesquisador do Laboratório de Sistemas Inteligentes (LSI) da Universidade do Estado do Amazonas (UEA), com foco em ensino, prototipagem e experimentação de modelos de linguagem baseados na arquitetura Transformer.
 
 ---
 
